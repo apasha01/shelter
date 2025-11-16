@@ -1,0 +1,27 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+/* RTL Support */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .fi-sidebar-nav {
+    text-align: right;
+}
+
+/* Persian Font Support */
+body {
+    font-family: 'Inter', 'Tahoma', 'Arial', sans-serif;
+}
+
+/* Better table styling for RTL */
+[dir="rtl"] .fi-ta-table {
+    direction: rtl;
+}
+
+[dir="rtl"] .fi-ta-cell {
+    text-align: right;
+}
